@@ -25,9 +25,9 @@ def predict():
     prediction = model.predict(new_data)[0]
 
     if prediction == "Pass":
-        result = "✅ Viwe mfoka Phakathi. You are likely to PASS 🎉 But you've been just hacked!"
+        result = "✅ Viwe mfoka Phakathi. You are likely to PASS 🎉 But you've just been hacked!"
     else:
-        result = "❌ You may FAIL 😬 Reduce phone usage & study more! Im sorry but uhekhiwe"
+        result = "❌ You may FAIL 😬 Reduce phone usage & study more! Im sorry but uhekhiwe, next time dont enter any links.Thanks nge 2 cent engiyithole ku capitec wakho"
 
     return render_template("index.html", prediction=result)
 
